@@ -1,26 +1,32 @@
-# Conveyor Waste Detection
+# Conveyor Waste Detection with YOLOv8
 
 ## Overview
-This project implements a computer vision application using YOLOv8 to detect PET and PP plastics on conveyor belts, supporting automated recycling. Built with Streamlit and Python, it offers real-time detection for images and videos.
+This project leverages YOLOv8 to detect PET (Polyethylene Terephthalate) and PP (Polypropylene) plastics on conveyor belts, enhancing automated recycling. Built with Streamlit and Python, it features real-time image and video detection with an mAP50 of 0.993.
 
 ## Features
-- Real-time detection of PET and PP plastics.
-- Interactive UI with confidence threshold adjustment.
-- Downloadable detection results.
+- Real-time detection of plastic waste.
+- Interactive Streamlit UI with downloadable results.
+- Trained on a custom Kaggle dataset.
 
-## Installation
-1. Clone the repository: `git clone https://github.com/MohammedMadany/Conveyor_Waste_Detection.git`
-2. Navigate to the project folder: `cd Conveyor_Waste_Detection`
-3. Install dependencies: `pip install -r requirements.txt`
-4. Run the app: `streamlit run src/app.py`
+## Repository Structure
+- `/src`: Source code (e.g., `app.py`, `.ipynb`).
+- `/models`: Trained model files (e.g., `Conveyor_Waste_Detection.pt`).
+- `/docs`: Documentation (this file).
+- `/data`: Dataset info (link below).
 
-## Requirements
-- Python 3.12
-- Packages: `streamlit`, `ultralytics`, `opencv-python`, `pillow`, `numpy`
+## Setup
+1. Clone the repo: `git clone https://github.com/MohammedMadany/Conveyor_Waste_Detection.git`
+2. Install dependencies: `pip install -r requirements.txt`
+3. Run the app: `streamlit run src/app.py`
 
-## Usage
-Upload an image or video via the Streamlit interface and adjust the confidence threshold for detection.
-
+## Resources
+- **Dataset**: [Kaggle - Conveyor Waste Detection](https://www.kaggle.com/datasets/islomjon/conveyor-waste-detection-dataset)
+- **Roboflow Dataset**: [Trash Train/Val](https://universe.roboflow.com/trash-dgkke/trash_train_val)
+- **GitHub**: [MohammedMadany/Conveyor_Waste_Detection](https://github.com/MohammedMadany/Conveyor_Waste_Detection)
+- **Demo Video**: [LinkedIn Post](https://www.linkedin.com/in/mohammed-madany-20b408224) (search for latest post)
+- **Author**: [Mohammed Madany](https://www.linkedin.com/in/mohammed-madany-20b408224)
 
 ## License
-© 2025 Mohammed Madany. All rights reserved.
+MIT License - See `/docs/LICENSE` for details.
+
+Updated: 11:33 PM EEST, July 13, 2025
