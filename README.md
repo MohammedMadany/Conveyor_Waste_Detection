@@ -23,7 +23,7 @@ This project leverages YOLOv8 to detect PET (Polyethylene Terephthalate) and PP 
 - **Dataset**: [Kaggle - Conveyor Waste Detection](https://www.kaggle.com/datasets/islomjon/conveyor-waste-detection-dataset)
 - **Roboflow Dataset**: [Trash Train/Val](https://universe.roboflow.com/trash-dgkke/trash_train_val)
 - **GitHub**: [MohammedMadany/Conveyor_Waste_Detection](https://github.com/MohammedMadany/Conveyor_Waste_Detection)
-- **Demo Video**: [LinkedIn Post]([https://www.linkedin.com/in/mohammed-madany-20b408224](https://www.linkedin.com/posts/mohammed-madany-20b408224_ai-powered-plastic-detectionwatch-it-activity-7350255595569983491-qX9q?utm_source=share&utm_medium=member_desktop&rcm=ACoAADhNJysBND20WYPA8vmVMsatja0EJad76pg))
+- **Demo Video**: [LinkedIn Post](https://www.linkedin.com/posts/mohammed-madany-20b408224_ai-powered-plastic-detectionwatch-it-activity-7350255595569983491-qX9q?utm_source=share&utm_medium=member_desktop&rcm=ACoAADhNJysBND20WYPA8vmVMsatja0EJad76pg)
 - **Author**: [Mohammed Madany](https://www.linkedin.com/in/mohammed-madany-20b408224)
 
 ## License
